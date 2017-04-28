@@ -1,0 +1,16 @@
+{
+  "name": "das",
+  "version": "1.0.0",
+  "description": "\"Todo list and countdown timer\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager --platform=darwin --arch=x64 --version=1.6.6 . TaskManager"
+
+  },
+  "author": "Gerardo Garcia Sanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
